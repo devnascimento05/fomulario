@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-divice-width, initial-scale-1.0">
+	<link rel="stylesheet" type="text/css" href="form.css" media="">
+
+	<title>Ficha de Cadastro</title>
+
+	<style>
+		body{
+			background-image:  url('https://images.ctfassets.net/hrltx12pl8hq/4ACnMj4WVSOZRZt0jHu9h5/1506f652bcd70f4dc3e88219fefea858/shutterstock_739595833-min.jpg?fit=fill&w=800&h=300');
+				background-size: cover;
+				background-repeat: no-repeat;
+
+		}
+
+		.max-windth {
+			width: 100%;
+			max-width: 800px;
+			margin: 0 auto;
+			background-color: #fff;
+		}
+	</style>
+</head>
+<body>
+		<div class="max-width"></div>
+	
+		<div>
+			<h1 id="titulo">Formulário de Cadastro de Clientes</h1>
+			<p id="subtitulo">Complete suas informações</p>
+			<br>
+		</div>
+
+		<form>
+			<fieldset class="grupo">
+				<div class="campo">
+					<label for="nome"><strong>Nome</strong></label>
+					<input type="text" name="Nome" id="nome" required>
+				</div>
+
+				<div class="campo"> 
+					<label for="sobrenome"><strong>Sobrenome</strong></label>
+					<input type="text" name="sobrenome" id="sobrenome" required>
+				</div>
+			</fieldset class="grupo">
+
+			<div class="campo">
+				<label for="email"><strong>Email</strong></label>
+				<input type="email" name="email" id="email" required>
+			</div>
+
+			<div class="campo">
+				<label><strong>CPF ou Cnpj</strong></label>
+				<input type="number" name="cpf" id="cpf">
+			</div>
+
+			<div class="campo">
+				<label><strong>Telefone</strong></label>
+				<input type="number" name="telefone" id="telefone">
+			</div>
+
+			<div class="campo">
+				<label><strong>Logradouro</strong></label>
+				<input type="text" name="Logradouro" id="Logradouro">
+			</div>
+
+			<div class="campo">
+				<label><strong>número</strong></label>
+				<input type="number" name="numero" id="numero">
+			</div>
+
+			<div class="campo">
+				<label><strong>Bairro</strong></label>
+				<input type="text" name="bairro" id="bairro">
+			</div>
+
+			<div class="campo">
+				<label><strong>CEP</strong></label>
+				<input type="number" name="CEP" id="cep">
+			</div>
+
+			<fieldset class="grupo">
+			<div class="campo">
+				<label><strong>Cidade</strong></label>
+				<input type="text" name="cidade" id="cidade">
+			</div>
+
+			<div class="campo">
+				<label><strong>Estado</strong></label>
+				<select id="Estado">
+					<option selected disabled value="">Escolha</option>
+					<option>SP</option>
+					<option>MG</option>
+					<option>RJ</option>
+					<option>RS</option>
+					<option>SC</option>
+					<option>PR</option>
+					<option>MT</option>
+					<option>MS</option>
+					<option>DF</option>
+					<option>GO</option>
+					<option>AM</option>
+					<option>ES</option>
+					<option>BA</option>
+					<option>AL</option>
+					<option>SE</option>
+					<option>PB</option>
+					<option>RN</option>
+					<option>PI</option>
+					<option>PE</option>
+					<option>CE</option>
+					<option>AC</option>
+					<option>RR</option>
+					<option>RO</option>
+					<option>AP</option>
+					<option>PA</option>
+					<option>MA</option>
+					<option>TO</option>
+				</select>
+			</div>
+		    </fieldset class="grupo">
+
+			<button class="botao" type="submit">Concluído</button>
+		</form>
+
+
+</body>
+</html>
